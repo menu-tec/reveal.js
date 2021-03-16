@@ -16,8 +16,51 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+				<section>
+					<h2>Desayuno</h2>
+					<table class="tg" style="undefined;table-layout: fixed; width: 281px">
+						<colgroup>
+						<col style="width: 141px">
+						<col style="width: 140px">
+						</colgroup>
+						<thead>
+						  <tr>
+						    <th class="tg-0lax">Platillo</th>
+						    <th class="tg-0lax">Precio(₡)</th>
+						  </tr>
+						</thead>
+						<tbody>
+						  <tr>
+						    <td class="tg-0lax">Pinto</td>
+						    <td class="tg-0lax">200</td>
+						  </tr>
+						  <tr>
+						    <td class="tg-0lax">Huevo</td>
+						    <td class="tg-0lax">100</td>
+						  </tr>
+						  <tr>
+						    <td class="tg-0lax">Fresco</td>
+						    <td class="tg-0lax">200</td>
+						  </tr>
+						  <tr>
+						    <td class="tg-0lax">Arepas</td>
+						    <td class="tg-0lax">300<br></td>
+						  </tr>
+						  <tr>
+						    <td class="tg-0lax">Plátano maduro<br></td>
+						    <td class="tg-0lax">200</td>
+						  </tr>
+						  <tr>
+						    <td class="tg-0lax">Cereal sin leche<br></td>
+						    <td class="tg-0lax">300</td>
+						  </tr>
+						  <tr>
+						    <td class="tg-0lax">Cereal con leche<br></td>
+						    <td class="tg-0lax">500</td>
+						  </tr>
+						</tbody>
+					</table>
+				</section>
 			</div>
 		</div>
 
@@ -31,6 +74,8 @@
 			// - https://revealjs.com/config/
 			Reveal.initialize({
 				hash: true,
+				autoSlide: 3000,
+  				loop: true
 
 				// Learn about plugins: https://revealjs.com/plugins/
 				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
